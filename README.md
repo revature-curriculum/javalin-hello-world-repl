@@ -1,6 +1,20 @@
-# javalin-jte-example
+## Javalin Hello World Challenge
+---
+### Description
+In this lab, you will modify the code to print something in the web browser.
 
-Replit run command (.replit)
+---
+### Steps
+1. In src -> main -> java -> Main.java edit the program to say on the web browser:
+```Java 
+"Hello, I’m [your name], and I built a web application!"
+```
 
-language = "java10"
-run = "mvn clean compile assembly:single && java -jar target/javalin-jte-example-1.0-SNAPSHOT-jar-with-dependencies.jar"
+---
+### Sample Output
+
+If your name were Matthew then in the web browser your program would say
+```Java 
+"Hello, I'm Matthew, and I built a web application!"
+```
+---
