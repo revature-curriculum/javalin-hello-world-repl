@@ -26,7 +26,7 @@ jobs:
     
       - name: copy command
         run: |
-          rm ./.replit/instructions.md && cp ./README.md ./.replit/instructions.md
+          mkdir .replit && rm ./.replit/instructions.md && cp ./README.md ./.replit/instructions.md
       - run: cat instructions.md
       
       - name: Commit files
