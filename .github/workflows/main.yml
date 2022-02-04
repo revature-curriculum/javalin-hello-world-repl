@@ -23,3 +23,7 @@ jobs:
           repository : 'javalin-hello-world-repl'
           copy_file_location : './README.md'
           paste_file_location : './.lesson/instructions.md'
+          TOKEN: ${{ secrets.TOKEN }}
+          REPOSITORY : 'javalin-hello-world-repl'
+          COPY-FILE-LOCATION : './README.md'
+          PASTE-FILE-LOCATION : './.lesson/instructions.md'
