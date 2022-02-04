@@ -20,6 +20,6 @@ jobs:
        uses: ShreyamMaity/Copy-Paste-Action@V2.0
        with:
           TOKEN: ${{ secrets.TOKEN }}
-          REPOSITORY : 'revature-curriculum/javalin-hello-world-repl'
+          REPOSITORY : 'javalin-hello-world-repl'
           COPY-FILE-LOCATION : './README.md'
           PASTE-FILE-LOCATION : './.lesson/instructions.md'
