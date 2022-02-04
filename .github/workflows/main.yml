@@ -27,7 +27,7 @@ jobs:
       - name: copy command
         run: |
           rm .lesson/instructions.md && cp README.md .lesson/instructions.md
-      - run: cat instructions.md
+      - run: cat .lesson/instructions.md
       
       - name: Commit files
         run: |
