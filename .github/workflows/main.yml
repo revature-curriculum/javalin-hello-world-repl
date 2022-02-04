@@ -19,8 +19,6 @@ jobs:
      - name: Copy Paste Action
        uses: ShreyamMaity/Copy-Paste-Action@V2.0
        with:
-          token: ${{ secrets.TOKEN }}
-          repository : 'javalin-hello-world-repl'
           copy_file_location : './README.md'
           paste_file_location : './.lesson/instructions.md'
           TOKEN: ${{ secrets.TOKEN }}
