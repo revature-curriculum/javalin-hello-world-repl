@@ -1,7 +1,8 @@
+<!--START_SECTION:cp-->
 ## Javalin Hello World Challenge
 ---
 ### Description
-In this lab, you will modify the code to print something in the web browser.
+In this lab, you will modify the code to print something in the web browser. Is this test working? once again.
 
 ---
 ### Steps
@@ -18,3 +19,4 @@ If your name were Matthew, then in the web browser, your program would say:
 "Hello, I'm Matthew, and I built a web application!"
 ```
 ---
+<!--END_SECTION:cp-->
