@@ -2,7 +2,7 @@
 ## Javalin Hello World Challenge
 ---
 ### Description
-In this lab, you will modify the code to print something in the web browser. Is this test working?
+In this lab, you will modify the code to print something in the web browser. Is this test working? once again.
 
 ---
 ### Steps
