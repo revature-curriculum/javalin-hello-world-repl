@@ -1,14 +1,10 @@
 name: Copy README.md to Instructions.md
 
 # Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+on: 
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches:
+      - main
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -25,5 +21,5 @@ jobs:
        with:
           TOKEN: ${{ secrets.TOKEN }}
           REPOSITORY : 'javalin-hello-world-repl'
-          COPY-FILE-LOCATION : './README.md'
-          PASTE-FILE-LOCATION : './.lesson/instructions.md'
+          COPY-FILE-LOCATION : 'README.md'
+          PASTE-FILE-LOCATION : '.lesson/instructions.md'
