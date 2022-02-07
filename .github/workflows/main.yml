@@ -20,7 +20,7 @@ jobs:
 
       - name: copy command
         run: |
-          rm .lesson/instructions.md && cp README.md .lesson/instructions.md
+          rm .lesson/instructions.md && rmdir .lesson && mkdir .lesson && cp README.md .lesson/instructions.md
       
       - name: Commit files
         run: |
