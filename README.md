@@ -1,4 +1,4 @@
-## Javalin Hello World Challenge
+## Your First Web Application
 ---
 ### Description
 In this lab, you will modify the code to print something in the web browser.
