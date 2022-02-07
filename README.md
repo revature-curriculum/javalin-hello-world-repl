@@ -1,4 +1,4 @@
-## Javalin Hello World Challenge This is the test for copy
+## Javalin Hello World Challenge
 ---
 ### Description
 In this lab, you will modify the code to print something in the web browser.
